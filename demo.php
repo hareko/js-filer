@@ -28,7 +28,6 @@ $name = 'jsFiler';
 $head = "$name Plugin Demo &nbsp;&copy; " . date('Y') . " <a href=\"mailto:info@vregistry.com?subject=$name\">vRegistry</a>";
 
 $path = 'http://filer.vregistry.com/pub'; //assets 
-$pth = "$path/lib/jsfiler"; //icons
 $jquery = '2.1.4.min';
 $nme = pathinfo(__FILE__, PATHINFO_FILENAME);
 require_once("$nme.phtml");
