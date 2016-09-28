@@ -1,0 +1,24 @@
+{
+  "name": "jsfiler",
+  "title": "jsFiler",
+  "version": "3.0.0",
+  "homepage": "http://vregistry.com",
+  "description": "jQuery plugin to present the hierarchical data client-side",
+  "main": "jsfiler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hareko/js-filer"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "author": "Vallo Reima",
+  "license": "GPL v.3",
+  "bugs": {
+    "url": "https://github.com/hareko/js-filer/issues"
+  }
+}
