@@ -5,7 +5,7 @@
  * @package     jsFiler
  * @version     3.0
  * @author      Vallo Reima <info@vallo.me>
- * @license     GNU LGPL http://opensource.org/licenses/gpl-3.0.html
+ * @license     GNU GPL http://opensource.org/licenses/gpl-3.0.html
  * @copyright   (c) 2014, Hareko
  * 
  * @param {object} $ jQuery
