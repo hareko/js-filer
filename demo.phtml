@@ -1,0 +1,43 @@
+<!--
+ * demo html
+ *
+ * @package     jsFiler
+ * @author      Vallo Reima
+ * @copyright   (c) 2015
+-->
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta content = "text/html; charset=utf-8" http-equiv = "Content-Type">
+    <meta content = "<?php echo $name; ?>" name = "generator">
+    <title><?php echo $name; ?></title>
+    <link type="image/x-icon" rel="shortcut icon" href="<?php echo $path; ?>/pic/favicon.png">
+    <link media="screen" type="text/css" rel="stylesheet" href="<?php echo $nme; ?>.css">
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>/lib/jstree/themes/default/style.min.css">
+    <style type="text/css">
+<?php require_once('jsfiler.css'); ?>
+    </style>
+    <script src="<?php echo $path; ?>/lib/jquery/jquery-<?php echo $jquery; ?>.js" type="text/javascript"></script>
+    <script src="<?php echo $path; ?>/lib/jstree/jstree.min.js" type="text/javascript"></script>
+    <script src="jsfiler.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('<?php echo "#$treeId"; ?>').jsfiler({menuMode: <?php echo $menuMode; ?>, mainMenu: '<?php echo $mainMenu; ?>'});
+        $('<?php echo "#$treeId"; ?>').jsfiler({canDrag: true, knotRemove: 2});
+      });
+    </script>
+  </head>
+  <body>    
+    <div class="shell">
+      <div class="head">
+        <div class="menu"><noscript>JavaScript is disabled. Please enable and reload the page</noscript></div>
+        <div class="sign"><?php echo $head; ?></div>
+      </div>
+      <div class="content">
+        <div id="<?php echo $treeId; ?>"></div>
+      </div>
+    </div> 
+  </body>
+</html>
+
+

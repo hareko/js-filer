@@ -1,0 +1,103 @@
+/**
+ * tree & menu styles
+ * jstree v3
+ * @package     jsFiler
+ * @author      Vallo Reima
+ * @copyright   (C)2015
+ */
+
+.js-filer-tree i.root {
+  background: url(<?php echo $pth; ?>/icons/t_root.png) center no-repeat;
+}
+.js-filer-tree i.knot {
+  background: url(<?php echo $pth; ?>/icons/t_knot.png) center no-repeat;
+}
+.js-filer-tree i.knot_leaf {
+  background: url(<?php echo $pth; ?>/icons/t_knot_leaf.png) center no-repeat;
+}
+.js-filer-tree i.leaf {
+  background: url(<?php echo $pth; ?>/icons/t_leaf.png) center no-repeat;
+}
+.js-filer-cpy > a {
+  font-style: italic;
+}
+.js-filer-cut > a {
+  font-style: italic;
+  color: gray;
+}
+.js-filer-meter{
+  font-style: italic;
+  margin-left: 5px;
+}
+.js-filer-menu {
+  font-style: italic;
+  margin-left: 5px;
+  position: absolute;
+}
+span.js-filer-menu img{
+  vertical-align: middle;
+}
+.js-filer-menu a {
+  background: center right no-repeat;
+  width: 16px;
+  height: 16px;
+  vertical-align: top;
+  text-align: center;
+}
+.js-filer-menu a[href$="-no"]:hover {
+  cursor: default;
+} 
+.jstree-contextmenu ._cmd {
+  background-position: center !important;
+} 
+.js-filer-menu ._sch, .jstree-contextmenu ._sch {
+  background: url(<?php echo $pth; ?>/icons/c_sch.png) no-repeat;
+} 
+.js-filer-menu ._sch-no, .jstree-contextmenu ._sch-no {
+  background: url(<?php echo $pth; ?>/icons/c_sch-no.png) no-repeat;
+} 
+.js-filer-menu ._new, .jstree-contextmenu ._new {
+  background: url(<?php echo $pth; ?>/icons/c_new.png) no-repeat;
+} 
+.js-filer-menu ._new-no, .jstree-contextmenu ._new-no {
+  background: url(<?php echo $pth; ?>/icons/c_new-no.png) no-repeat;
+} 
+.js-filer-menu ._add, .jstree-contextmenu ._add {
+  background: url(<?php echo $pth; ?>/icons/c_add.png) no-repeat;
+} 
+.js-filer-menu ._add-no, .jstree-contextmenu ._add-no {
+  background: url(<?php echo $pth; ?>/icons/c_add-no.png) no-repeat;
+} 
+.js-filer-menu ._ren, .jstree-contextmenu ._ren {
+  background: url(<?php echo $pth; ?>/icons/c_ren.png) no-repeat;
+} 
+.js-filer-menu ._ren-no, .jstree-contextmenu ._ren-no {
+  background: url(<?php echo $pth; ?>/icons/c_ren-no.png) no-repeat;
+} 
+.js-filer-menu ._del, .jstree-contextmenu ._del {
+  background: url(<?php echo $pth; ?>/icons/c_del.png) no-repeat;
+}
+.js-filer-menu ._del-no, .jstree-contextmenu ._del-no {
+  background: url(<?php echo $pth; ?>/icons/c_del-no.png) no-repeat;
+}
+.js-filer-menu ._cpy, .jstree-contextmenu ._cpy {
+  background: url(<?php echo $pth; ?>/icons/c_cpy.png) no-repeat;
+}
+.js-filer-menu ._cpy-no, .jstree-contextmenu ._cpy-no {
+  background: url(<?php echo $pth; ?>/icons/c_cpy-no.png) no-repeat;
+}
+.js-filer-menu ._cut, .jstree-contextmenu ._cut {
+  background: url(<?php echo $pth; ?>/icons/c_cut.png) no-repeat;
+}
+.js-filer-menu ._cut-no, .jstree-contextmenu ._cut-no {
+  background: url(<?php echo $pth; ?>/icons/c_cut-no.png) no-repeat;
+}
+.js-filer-menu ._pst, .jstree-contextmenu ._pst {
+  background: url(<?php echo $pth; ?>/icons/c_pst.png) no-repeat;
+}
+.js-filer-menu ._pst-no, .jstree-contextmenu ._pst-no {
+  background: url(<?php echo $pth; ?>/icons/c_pst-no.png) no-repeat;
+}
+.js-filer-menu img {
+  border: 0;
+}
