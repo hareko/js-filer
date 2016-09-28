@@ -80,11 +80,12 @@ PHP support is required. Unzip the files to some web server directory:
 
 1. *jsfiler.js* - the plugin
 2. *jsfiler.css* - plugin styles/icons
-3. *demo.php* - the demo startup
-4. *demo.phtml* - demo htm
-5. *demo.css* - demo styles
-6. *ajax.php* - server-side emulator for the demo
-7. *readme.md* - quick overview
+3. *icons* - icons folder
+4. *demo.php* - the demo startup
+5. *demo.phtml* - demo htm
+6. *demo.css* - demo styles
+7. *ajax.php* - server-side emulator for the demo
+8. *readme.md* - quick overview
 
 Run the *demo.php*. Use the *mode* parameter to try different menu modes (*mode=rm* is default):
 
