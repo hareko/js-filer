@@ -31,7 +31,9 @@ The (multi)tree and operations behaviour are specified via configuration paramet
 
 ## Creation
 
-1. supply necessary CSS/JS assets (see demo);
+Examine the demo files for the details (see Installation):
+
+1. supply necessary CSS/JS assets (see the demo files below);
 
 2. supply html/css with the elements to hold the tree;
 
@@ -74,15 +76,21 @@ Click the node and select the required command from the right-click or icon menu
 
 ## Installation
 
-PHP support is required. Unzip the package to some web server directory and run the demo. The files:
- 
-1. *jsfiler.js* - the jQuery plugin
+PHP support is required. Unzip the files to some web server directory: 
+
+1. *jsfiler.js* - the plugin
 2. *jsfiler.css* - plugin styles/icons
 3. *demo.php* - the demo startup
-4. *demo.html* - demo htm
+4. *demo.phtml* - demo htm
 5. *demo.css* - demo styles
 6. *ajax.php* - server-side emulator for the demo
 7. *readme.md* - quick overview
+
+Run the *demo.php*. Use the *mode* parameter to try different menu modes (*mode=rm* is default):
+
++ r - right-click menu
++ m - main menu
++ n - node menu
 
 ## Revision Credits
 
@@ -95,7 +103,7 @@ jsFiler is released under the [GPL v.3].
 (c) 2015 Vallo Reima
 
 ## Feedback
-See the [Remote File Manager] solution that implements jsFiler via extended command set and callbacks.
+Examine the [Remote File Manager] solution that implements jsFiler via extended command set, enhanced dialog and callbacks.
 
 If you have any questions, comments, ideas, or would like to leave any other kind of feedback, feel free to [contact me].
 
