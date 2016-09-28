@@ -16,6 +16,9 @@
     "jquery-plugin",
     "ecosystem:jquery"
   ],
+  "dependencies": {
+    "jstree": ">=3.1.1"
+  },
   "author": "Vallo Reima",
   "license": "GPL v.3",
   "bugs": {
