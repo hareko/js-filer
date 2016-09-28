@@ -92,6 +92,8 @@ PHP support is required. Unzip the package to some web server directory and run 
 
 jsFiler is released under the [GPL v.3].
 
+(c) 2015 Vallo Reima
+
 ## Feedback
 See the [Remote File Manager] solution that implements jsFiler via extended command set and callbacks.
 
@@ -100,5 +102,5 @@ If you have any questions, comments, ideas, or would like to leave any other kin
 [Ivan Bozhanov]: vakata.com
 [jsTree]: jstree.com
 [GPL v.3]: https://www.gnu.org/licenses/gpl-3.0.html
-[contact me]: mailto:vallo@vregistry.com
+[contact me]: mailto:vallo@vregistry.com?subject=jsFiler
 [Remote File Manager]: http://vregistry.com/filer/
