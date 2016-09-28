@@ -3,7 +3,7 @@
  *
  * @package     jsFiler
  * @author      Vallo Reima
- * @copyright   (c) 2015
+ * @copyright   (c) 2016
 -->
 <!DOCTYPE html>
 <html lang = "en">
@@ -12,11 +12,9 @@
     <meta content = "<?php echo $name; ?>" name = "generator">
     <title><?php echo $name; ?></title>
     <link type="image/x-icon" rel="shortcut icon" href="<?php echo $path; ?>/pic/favicon.png">
-    <link media="screen" type="text/css" rel="stylesheet" href="<?php echo $nme; ?>.css">
+    <link media="all" type="text/css" rel="stylesheet" href="<?php echo $nme; ?>.css">
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo $path; ?>/lib/jstree/themes/default/style.min.css">
-    <style type="text/css">
-<?php require_once('jsfiler.css'); ?>
-    </style>
+    <link media="all" type="text/css" rel="stylesheet" href="jsfiler.css">
     <script src="<?php echo $path; ?>/lib/jquery/jquery-<?php echo $jquery; ?>.js" type="text/javascript"></script>
     <script src="<?php echo $path; ?>/lib/jstree/jstree.min.js" type="text/javascript"></script>
     <script src="jsfiler.js" type="text/javascript"></script>
