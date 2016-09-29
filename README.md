@@ -3,7 +3,7 @@
 
 ## Purpose
 
-A cross-browser jQuery plugin to display and modify the tree view of any hierarchical data (file directories, inventory lists, ...) supplied by the server-side.
+A cross-browser jQuery plugin to display and modify the tree view of any hierarchical data (file directories, inventory lists, ...) supplied from server-side.
 
 
 ## Composition
