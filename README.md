@@ -94,7 +94,7 @@ PHP support is required to run the *demo.html*. Use the *mode* parameter to try 
 
 ## Revision Credits
 
-[Ivan Bozhanov]
+[Ivan Bozhanov] of jsTree
 
 ## License
 
@@ -107,8 +107,8 @@ Examine the [Remote File Manager] solution that implements jsFiler via extended 
 
 If you have any questions, comments, ideas, or would like to leave any other kind of feedback, feel free to [contact me].
 
-[Ivan Bozhanov]: vakata.com
-[jsTree]: jstree.com
+[Ivan Bozhanov]: http://vakata.com/en/
+[jsTree]: https://www.jstree.com/
 [GPL v.3]: https://www.gnu.org/licenses/gpl-3.0.html
 [contact me]: mailto:vallo@vregistry.com?subject=jsFiler
 [Remote File Manager]: http://vregistry.com/filer/
