@@ -44,11 +44,10 @@ Examine the demo for the details (see Installation):
 
  *element* - selector of the element containing the tree</br>
  *options* - configuration parameters object
-4. example:
+
+ For example:
 
  ``` $('#treeId').jsfiler({menuMode: 3, mainMenu: '.menu'});```
-
- ``` $('#treeId').jsfiler({canDrag: true, knotRemove: 2});``` 
 
 ## Configuration
 The options can be passed during activation and after that.
