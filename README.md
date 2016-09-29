@@ -3,12 +3,13 @@
 
 ## Purpose
 
-A cross-browser jQuery plugin to display and modify the tree view of any hierarchical data (file system, inventory, ...).
+A cross-browser jQuery plugin to display and modify the tree view of any hierarchical data (file directories, inventory lists, ...) supplied by the server-side.
 
 
 ## Composition
 
-jsFiler is built on top of the [jsTree] extending its functionality. It is configurable for different tree applications and must be supported server-side. 
+jsFiler is built on top of the [jsTree] extending its functionality: command menus, dialogues, server communication. 
+It is configurable for different tree applications and expects the back-end support. 
 The (multi)tree and operations behaviour are specified via configuration parameters and user callbacks.
 
 
@@ -31,9 +32,9 @@ The (multi)tree and operations behaviour are specified via configuration paramet
 
 ## Creation
 
-Examine the demo files for the details (see Installation):
+Examine the demo for the details (see Installation):
 
-1. supply necessary CSS/JS assets (see the demo files below);
+1. supply necessary CSS/JS assets;
 
 2. supply html/css with the elements to hold the tree;
 
@@ -76,18 +77,16 @@ Click the node and select the required command from the right-click or icon menu
 
 ## Installation
 
-PHP support is required. Unzip the files to some web server directory: 
+Unzip the files to some web server directory: 
 
 1. *jsfiler.js* - the plugin
 2. *jsfiler.css* - plugin styles/icons
-3. *icons* - icons folder
-4. *demo.php* - the demo startup
-5. *demo.phtml* - demo htm
-6. *demo.css* - demo styles
-7. *ajax.php* - server-side emulator for the demo
-8. *readme.md* - quick overview
+3. *icons* - tree & command icons folder
+5. *demo.html* - the demo
+6. *ajax.php* - server-side emulator for the demo
+7. *readme.md* - quick overview
 
-Run the *demo.php*. Use the *mode* parameter to try different menu modes (*mode=rm* is default):
+PHP support is required to run the *demo.html*. Use the *mode* parameter to try different menu modes (*mode=rm* is default):
 
 + r - right-click menu
 + m - main menu
