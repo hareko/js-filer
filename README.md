@@ -92,6 +92,8 @@ PHP support is required to run the *demo.html*. Use the *mode* parameter to try 
 + m - main menu
 + n - node menu
 
+The demo must function like [here].
+
 ## Revision Credits
 
 [Ivan Bozhanov] of jsTree
@@ -107,6 +109,7 @@ Examine the [Remote File Manager] solution that implements jsFiler via extended 
 
 If you have any questions, comments, ideas, or would like to leave any other kind of feedback, feel free to [contact me].
 
+[here]: http://vregistry.com/samples/demo/?app=jsfiler
 [Ivan Bozhanov]: http://vakata.com/en/
 [jsTree]: https://www.jstree.com/
 [GPL v.3]: https://www.gnu.org/licenses/gpl-3.0.html
