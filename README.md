@@ -1,5 +1,5 @@
 
-# jsFiler
+# jsFiler  [![npm version](https://badge.fury.io/js/jsfiler.svg)](https://badge.fury.io/js/jsfiler)
 
 ## Purpose
 
