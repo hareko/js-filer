@@ -35,9 +35,7 @@ The (multi)tree and operations behaviour are specified via configuration paramet
 Examine the demo for the details (see Installation):
 
 1. supply necessary CSS/JS assets;
-
 2. supply html/css with the elements to hold the tree;
-
 3. activate the tree via jQuery passing the tree parameters:
 
  ``` $(<element>).jsfiler(<options>); ```
