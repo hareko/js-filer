@@ -106,6 +106,10 @@ Examine the [Remote File Manager] solution that implements jsFiler via extended 
 
 If you have any questions, comments, ideas, or would like to leave any other kind of feedback, feel free to [contact me].
 
+## ChangeLog ##
+- 14 Apr 2017
+    - *selectOpen* option, default 2
+
 [here]: http://vregistry.com/samples/demo/?app=jsfiler
 [Ivan Bozhanov]: http://vakata.com/en/
 [jsTree]: https://www.jstree.com/
