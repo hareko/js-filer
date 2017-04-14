@@ -1,7 +1,7 @@
 {
   "name": "jsfiler",
   "title": "jsFiler",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "homepage": "http://vregistry.com",
   "description": "jQuery plugin to present the hierarchical data client-side",
   "main": "jsfiler.js",
