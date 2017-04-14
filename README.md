@@ -58,7 +58,7 @@ The options can be passed during activation and after that.
 + *rootSingle* - allow multiple roots (boolean, default is false)
 + *rootLeaf* - allow leafs for root node (boolean, default is true)
 + *saveState* - save opened/selected state (boolean, default is false)
-+ *selectOpen* - don't open the subtree with node selection (boolean, default is false)
++ *selectOpen* - open the subtree by node selection (0 - don't, 1 - by click, 2 - by dblclick; default is 2)
 + *knotRemove* - knots deletion: 0 - empty only, 1 - +copied, 2 - all (integer, default is 0)
 + *nameDupl* - duplicate child names: 2 - allow, 1 - case-sensitive, 0 - no (integer, default is 0)
 + *nameTrim* - node name trim pattern (string, default is /^\s+|\s+$/g)
