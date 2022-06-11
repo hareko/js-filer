@@ -1160,7 +1160,7 @@
       ClearOpts(obj);
     }
     if (typeof cnd !== 'object') {
-      cnd = {str: cnd, csi: 0, pos: 0};
+      cnd = {str: cnd, csi: 0, pos: 1}; //VR Jun 2022 default search criteria: csi - case-insensitive, pos - compare prefix
     }
     tree.search = cnd;
     $(tree.Id).jstree('search', cnd.str);
