@@ -111,9 +111,9 @@ function Search($nodes, $rq) {
 function Find($nodes, &$rlt, $id, $pnt, $cnd) {
   foreach ($nodes as $node) {
     if ($node[1] == $id && empty($rlt[$id][0])) {
-      $fnd = $cnd['csi'] ? stripos($node[3], $cnd['str']) : strpos($node[3], $cnd['str']);
+      $fnd = stripos($node[3], $cnd['str']); //VR Jun 2022
       $rlt[$id] = array($fnd !== false, $pnt);
-      Find($nodes, $rlt, $node[0], $id, $cnd);
+      Find($nodes, $rlt, $node[0], $node[1], $cnd);
     }
   }
 }
